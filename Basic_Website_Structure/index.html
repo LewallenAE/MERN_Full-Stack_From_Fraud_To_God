@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title is for Search Engine Optimization (SEO)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Heading 1 - Largest</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6 - Smallest</h6>
+
+  <!-- Invalid heading tags like <h7>, <h8>, and <h9> do not exist in HTML -->
+  <p>Tags like <code>&lt;h7&gt;</code>, <code>&lt;h8&gt;</code>, and <code>&lt;h9&gt;</code> are not valid HTML. Only h1 through h6 exist.</p>
+
+  <p>&lt;p&gt; for paragraphs &lt;/p&gt;</p>
+  <b>&lt;b&gt; for bold &lt;/b&gt;</b><br />
+   
+  <!-- Ordered and unordered lists-->
+  <ul type="disc">
+    <li>Unordered list with list item using <code>&lt;type="disc"&gt;</code></li>
+    <li>
+      <ol type="I">
+        <li>Ordered list item using <code>&lt;type ="I" for Roman numerals&gt;</code></li>
+      </ol>
+    </li>
+  </ul>
+
+  <!-- Quick Code -->
+<ol>
+  <p>
+    We can use Emmet abbreviations like:
+    <br /> 
+    <li><code>h*5</code> = 5 heading tags,</li>
+   <br />
+   <li> <code>p*5</code> = 5 paragraph tags,</li>
+    <br /> 
+    <li><code>ul&gt;li*5</code> = 5 list items inside a UL.</li>
+    <br/>
+    <li><code>ol&gt;li*5</code> = 5 list items inside a OL.</li>
+    <br />
+    <li><code>div*5</code> = 5 div tags.</li>
+    <br />
+    <li><code>div>h1</code> = 1 heading inside a div.</li>
+    <br />
+    <li><code>div>h1+p</code> = 1 heading and 1 paragraph inside a div.</li>
+    <br />
+    <li><code>div>h1+p*5</code> = 1 heading and 5 paragraphs inside a div.</li>
+    <br />
+    <li><code>div>h1+p*5+ul&gt;li*5</code> = 1 heading, 5 paragraphs, and 5 list items inside a div.</li>
+    <br />
+    <li><code>div>h1+p*5+ul&gt;li*5+ol&gt;li*5</code> = 1 heading, 5 paragraphs, 5 list items inside a UL, and 5 list items inside a OL.</li>
+    <br />
+    <li><code>div>h1+p*5+ul&gt;li*5+ol&gt;li*5+img</code> = 1 heading, 5 paragraphs, 5 list items inside a UL, 5 list items inside a OL, and an image.</li>
+    <br />
+  </p>
+    <ol type="i">
+
+        <!-- Italic text -->
+        <li><i>&lt;i&gt;italic&lt;/i&gt;</i></li>
+      
+        <!-- Underlined text -->
+        <li><u>&lt;u&gt;underline&lt;/u&gt;</u></li>
+      
+        <!-- Strikethrough text -->
+        <li><s>&lt;s&gt;strikethrough&lt;/s&gt;</s></li>
+      
+        <!-- Nested tags: bold, italic, underline, strikethrough -->
+        <li><b><i><u><s>&lt;b&gt;&lt;i&gt;&lt;u&gt;&lt;s&gt;nested&lt;/s&gt;&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;</s></u></i></b></li>
+      
+        <!-- Semantic bold text -->
+        <li><strong>&lt;strong&gt;bold text&lt;/strong&gt;</strong></li>
+      
+        <!-- Emphasized (italic) text -->
+        <li><em>&lt;em&gt;emphasized text&lt;/em&gt;</em></li>
+      
+        <!-- Subscript -->
+        <li>H<sub>&lt;sub&gt;2&lt;/sub&gt;</sub></li>
+      
+        <!-- Superscript -->
+        <li>H<sup>&lt;sup&gt;2&lt;/sup&gt;</sup></li>
+      
+        <!-- Highlighted text -->
+        <li><mark>&lt;mark&gt;highlighted&lt;/mark&gt;</mark></li>
+      
+        <!-- Smaller text -->
+        <li><small>&lt;small&gt;smaller&lt;/small&gt;</small></li>
+      
+        <!-- Deleted (crossed out) text -->
+        <li><del>&lt;del&gt;deleted&lt;/del&gt;</del></li>
+      
+        <!-- Inserted (underlined by default) -->
+        <li><ins>&lt;ins&gt;inserted&lt;/ins&gt;</ins></li>
+      
+        <!-- Abbreviation with tooltip -->
+        <li><abbr title="World Health Organization">&lt;abbr title="..."&gt;WHO&lt;/abbr&gt;</abbr></li>
+      
+        <!-- Date/time tag -->
+        <li><time datetime="2025-05-11">&lt;time datetime="..."&gt;May 11, 2025&lt;/time&gt;</time></li>
+      
+        <!-- Address block -->
+        <li><address>&lt;address&gt;123 Web Dev Lane&lt;/address&gt;</address></li>
+      
+        <!-- Citation reference -->
+        <li><cite>&lt;cite&gt;The Art of Coding&lt;/cite&gt;</cite></li>
+      
+        <!-- Inline quote -->
+        <li><q>&lt;q&gt;Inline quote&lt;/q&gt;</q></li>
+      
+        <!-- Blockquote (indented block of text) -->
+        <li><blockquote>&lt;blockquote&gt;This is a block quote.&lt;/blockquote&gt;</blockquote></li>
+      
+        <!-- Preformatted text (respects whitespace and line breaks) -->
+        <li>
+          <!-- Preformatted block -->
+          <pre>&lt;pre&gt;Preformatted
+        text   stays   spaced&lt;/pre&gt;</pre>
+        </li>
+      
+        <!-- Code snippet -->
+        <li><code>&lt;code&gt;console.log("Hello")&lt;/code&gt;</code></li>
+      
+        <!-- Keyboard input -->
+        <li><kbd>&lt;kbd&gt;Ctrl + C&lt;/kbd&gt;</kbd></li>
+      
+        <!-- Sample output -->
+        <li><samp>&lt;samp&gt;Hello, World!&lt;/samp&gt;</samp></li>
+      
+        <!-- Variable name -->
+        <li><var>&lt;var&gt;x&lt;/var&gt; = x</var></li>
+      
+        <!-- Definition -->
+        <li><dfn title="HyperText Markup Language">&lt;dfn&gt;HTML&lt;/dfn&gt; is a markup language</dfn></li>
+      
+        <!-- Hyperlink -->
+        <li><a href="https://www.google.com" target="_blank">&lt;a href="..."&gt;link&lt;/a&gt;</a></li>
+      
+        <!-- Image with all attributes -->
+        <li>
+          <!-- Image element -->
+          <code>&lt;img src="..." width="..." height="..." alt="..." /&gt;</code><br />
+          <img 
+            src="https://media.licdn.com/dms/image/v2/D5603AQEpyYPEkQndhQ/profile-displayphoto-shrink_200_200/B56ZQA0qDYGsAY-/0/1735180591722?e=1752710400&v=beta&t=RKeW7tAJ_DdS1UzsvQon1nQouDLXMTjap8KtJGoVkYc" 
+            alt="Anthony Lewallen"
+            width="200"
+            height="200"
+            title="Anthony Lewallen"
+            loading="lazy"
+            class="image-class"
+          />
+        </li>
+      
+        <!-- Video tag with fallback -->
+        <li>
+          <!-- Video player (requires real video file) -->
+          <p><code>&lt;video&gt;This only supports an actual video file like .mpeg, .mov, .vlc, etc.&lt;/video&gt;</code></p>
+          <video width="480" height="500" controls autoplay muted>
+            <source src="video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </li>
+      
+        <!-- YouTube video via iframe -->
+        <li>
+          <!-- YouTube embed -->
+          <p><code>&lt;iframe src="..."&gt;&lt;/iframe&gt;</code></p>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/qz0aGYrrlhU?si=iFNS-cZuwNXv3EtS" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </li>
+        <!-- Table element -->
+<li>
+    <!-- Table example comment -->
+    <!-- Tables are used to display data in rows and columns -->
+    <table border="1">
+      <caption>&lt;table&gt; with &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt;</caption>
+      <thead>
+        <tr>
+          <th>&lt;th&gt;Name&lt;/th&gt;</th>
+          <th>&lt;th&gt;Role&lt;/th&gt;</th>
+          <th>&lt;th&gt;Power Level&lt;/th&gt;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;td&gt;Anthony&lt;/td&gt;</td>
+          <td>Coder</td>
+          <td>🔥9000+</td>
+        </tr>
+        <tr>
+          <td>Anthony Lewallen</td>
+          <td>Your Wingman</td>
+          <td>∞</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <!-- The colspan="3" syntax means this particular item will span 3 columns-->
+          <td colspan="3">&lt;tfoot&gt;End of Data&lt;/tfoot&gt;</td>
+        </tr>
+      </tfoot>
+    </table>
+  </li>
+  <br>
+  <br>
+ <!-- Search form using <form>, <label>, and <input> -->
+<li>
+    <!-- Forms allow user input and submission to a backend or search engine -->
+    <form action="https://www.google.com/search" method="get">
+      <label for="search">
+        <!-- Escaped HTML syntax for learning purposes -->
+        &lt;form action="https://www.google.com/search" method="get"&gt;<br/>
+        &lt;label for="search"&gt;<br/>
+        &lt;input type="text" id="search" name="q" placeholder="Type here..." /&gt;<br/>
+        &lt;input type="submit" value="Search" /&gt;<br/>
+        <br />
+        <br />
+        Search Google:
+      </label><br />
+      
+      <!-- Actual rendered form fields -->
+      <input 
+        type="text" 
+        id="search" 
+        name="q" 
+        placeholder="Type here..." 
+        style="margin-top: 0.5rem; padding: 0.3rem;" 
+      />
+      <input 
+        type="submit" 
+        value="Search" 
+        style="margin-left: 0.5rem; padding: 0.3rem 1rem;" 
+      />
+    </form>
+  </li>
+  <br/>
+  <br/>
+  <!-- User input form (HTML only, no styles) -->
+<li>
+    <!-- Challenge prompt -->
+    <p>Can you figure out the code for the following?</p>
+    <p><small>Hint: for name: type="text" and for email: type="email"</small></p>
+  
+    <!-- Escaped HTML syntax for reference 
+    <p>
+      &lt;form action="backend.php"&gt;<br />
+      &nbsp;&nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br />
+      &nbsp;&nbsp;&lt;input type="text" id="name" name="name" placeholder="Enter your name." required /&gt;<br />
+      &nbsp;&nbsp;&lt;label for="email"&gt;Email:&lt;/label&gt;<br />
+      &nbsp;&nbsp;&lt;input type="email" id="email" name="email" placeholder="Enter your email." required /&gt;<br />
+      &nbsp;&nbsp;&lt;input type="submit" value="Submit" /&gt;<br />
+      &lt;/form&gt;
+    </p> -->
+  
+    <!-- Actual rendered form -->
+    <form action="backend.php" method="post">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Enter your name." required /><br /><br />
+  
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="Enter your email." required /><br /><br />
+  
+      <input type="submit" value="Submit" />
+    </form>
+  </li>
+
+  <li>
+    <p>Did you find this tutorial helpful?</p>
+    Yes: <input type="radio" name="helpful" value="yes"/><br/>
+    No: <input type="radio" name="helpful" value="no"/><br/>
+    Maybe: <input type="radio" name="helpful" value="maybe"/><br/>
+    <br/>
+  </li>
+
+  <li>
+    <a href="https://github.com/lewallenae" target="_blank">Go here for the source code.</a>
+  </li>
+  
+  
+  
+      
+  
+    
+
+    
+    
+    
+</body>
+</html>
